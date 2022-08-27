@@ -1,0 +1,53 @@
+.sticky-social {
+    position: fixed;
+    top: 130px;
+    right: 0px;
+    padding: 0px;
+    margin: 0px;
+    z-index: 10000;
+}
+
+.social {
+    list-style: none;
+    z-index: 10000;
+}
+
+.li1 {
+    padding: 8px 8px;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+.li1:hover {
+    margin-left: -15px;
+    box-shadow: 2px 5px 10px grey;
+}
+
+.li1:hover .fa {
+    margin-left: 8px;
+}
+
+.fa {
+    transition: all 0.3s ease-in-out;
+}
+
+.fb {
+    background-color: #315191;
+}
+
+.twitter {
+    background-color: #1EA1F2;
+}
+
+.insta {
+    background-color: #DC4F42;
+}
+
+.youtube {
+    background-color: #f7060e;
+}
+
+.whatsapp {
+    background-color: #40da04;
+}
